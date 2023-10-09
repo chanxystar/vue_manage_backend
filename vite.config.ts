@@ -4,9 +4,11 @@ import path from "path";
 // https://vitejs.dev/config/
 import Components from 'unplugin-vue-components/vite';
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
+import UnoCSS from 'unocss/vite'
 export default defineConfig({
   plugins: [
     vue(),
+    UnoCSS(),
     Components({
       dirs:['src/components'],
       extensions:['vue'],

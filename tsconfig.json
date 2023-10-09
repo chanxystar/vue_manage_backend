@@ -20,9 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*":["src/*"]
+      "@/*":["./src/*"]
     }
   },
   "include": ["components.d.ts","src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
